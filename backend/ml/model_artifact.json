@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-01-31T07:46:58.809Z",
+  "features": [
+    "sleep_duration",
+    "nadir_to_wake_time",
+    "nadir_hr"
+  ],
+  "thresholds": {
+    "min_sleep_minutes": 300,
+    "min_nadir_wake_gap": 90,
+    "max_nadir_hr": 65
+  },
+  "classes": [
+    "READY",
+    "WAIT",
+    "HIGH_STRESS"
+  ]
+}
